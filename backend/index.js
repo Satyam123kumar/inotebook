@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.use(cors({
-  origin: "https://todo-taupe-omega.vercel.app"
+  origin: "https://inotebook-chi-blush.vercel.app/login"
 }));
 //Available Routes
 
