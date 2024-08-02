@@ -10,7 +10,9 @@ app.use(cors())
 app.use(express.json())
 
 app.use(cors({
-  origin: "https://inotebook-chi-blush.vercel.app/login"
+  origin: ["https://inotebook-chi-blush.vercel.app/login"],
+  methods: ["POST", "GET", "PUT", "DELETE"],
+  credentials: true
 }));
 //Available Routes
 
