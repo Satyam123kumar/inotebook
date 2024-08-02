@@ -1,7 +1,7 @@
 import { useState } from "react"
 import NotesContext from "./notesContext";
 const NoteState = (props) => {
-    const host = "http://localhost:5000"
+    const host = "https://todo-taupe-omega.vercel.app"
     // const host = "window.location.origin"
     
     const notesInitial = []
