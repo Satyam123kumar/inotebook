@@ -30,7 +30,7 @@ const AddNote = (props) => {
                 <div className="mb-3">
                     <label htmlFor="description" className="form-label">Description</label>
                     <input type="text" className="form-control" id="description" name='description' value={note.description} onChange={handleChange}/>
-                    {note.description.length<5 && <div id="text" className="form-text">Must be atlest 3 characters</div> }
+                    {note.description.length<5 && <div id="text" className="form-text">Must be atlest 5 characters</div> }
                 </div>
                 <div className="mb-3">
                     <label htmlFor="tag" className="form-label">Tag</label>
